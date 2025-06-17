@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AbombHQ</title>
+  <style>
+    :root {
+      --accent-color: #ff004d; /* CHANGE this to match your profile pic color */
+    }
+
+    body {
+      margin: 0;
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      max-width: 320px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      color: var(--accent-color);
+      font-size: 1.75rem;
+    }
+
+    a.button {
+      display: block;
+      background-color: var(--accent-color);
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+    }
+
+    a.button:hover {
+      background-color: #ff3366;
+    }
+
+    iframe {
+      width: 100%;
+      height: 180px;
+      border: none;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .schedule {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>AbombHQ</h1>
+
+  <div class="section">
+    <iframe
+      src="https://player.twitch.tv/?channel=YOUR_TWITCH_USERNAME&parent=yourdomain.github.io"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="section">
+    <a href="https://www.youtube.com/@YOUR_YOUTUBE_USERNAME" class="button" target="_blank">YouTube Channel</a>
+    <a href="https://streamlabs.com/YOUR_STREAMLABS_NAME" class="button" target="_blank">Donate via Streamlabs</a>
+    <a href="https://cash.app/$YourCashTag" class="button" target="_blank">Cash App</a>
+  </div>
+
+  <div class="section schedule">
+    <p><strong>Streaming Schedule:</strong></p>
+    <p>Mon-Fri: 6PM – 9PM EST</p>
+    <p>Sat-Sun: Random drops!</p>
+  </div>
+
+  <div class="section">
+    <iframe
+      src="https://www.twitch.tv/embed/YOUR_TWITCH_USERNAME/chat?parent=yourdomain.github.io"
+      height="300">
+    </iframe>
+  </div>
+</body>
+</html>
